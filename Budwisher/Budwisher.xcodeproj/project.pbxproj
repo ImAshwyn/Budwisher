@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		0140EED41CCB58AB00FA0DC4 /* BudwisherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EED31CCB58AB00FA0DC4 /* BudwisherTests.swift */; };
 		0140EEDF1CCB58AB00FA0DC4 /* BudwisherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EEDE1CCB58AB00FA0DC4 /* BudwisherUITests.swift */; };
-		0140EEFD1CCB590000FA0DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EEEF1CCB590000FA0DC4 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		0140EEFE1CCB590000FA0DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EEF11CCB590000FA0DC4 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		0140EEFF1CCB590000FA0DC4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EEF21CCB590000FA0DC4 /* DataManager.swift */; settings = {ASSET_TAGS = (); }; };
 		0140EF001CCB590000FA0DC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0140EEF51CCB590000FA0DC4 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		0140EF011CCB590000FA0DC4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0140EEF71CCB590000FA0DC4 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
 		0140EF021CCB590000FA0DC4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0140EEFA1CCB590000FA0DC4 /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
 		0140EF031CCB590000FA0DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0140EEFC1CCB590000FA0DC4 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		0140EF1D1CCFD61E00FA0DC4 /* BWHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EF1B1CCFD61E00FA0DC4 /* BWHomeController.swift */; settings = {ASSET_TAGS = (); }; };
+		0140EF1E1CCFD61E00FA0DC4 /* BWSplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EF1C1CCFD61E00FA0DC4 /* BWSplashController.swift */; settings = {ASSET_TAGS = (); }; };
+		0140EF211CCFD63300FA0DC4 /* BWAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EF1F1CCFD63300FA0DC4 /* BWAppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		0140EF221CCFD63300FA0DC4 /* BWDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140EF201CCFD63300FA0DC4 /* BWDataManager.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +43,14 @@
 		0140EEDA1CCB58AB00FA0DC4 /* BudwisherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudwisherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0140EEDE1CCB58AB00FA0DC4 /* BudwisherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudwisherUITests.swift; sourceTree = "<group>"; };
 		0140EEE01CCB58AB00FA0DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0140EEEF1CCB590000FA0DC4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0140EEF11CCB590000FA0DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0140EEF21CCB590000FA0DC4 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		0140EEF51CCB590000FA0DC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0140EEF71CCB590000FA0DC4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0140EEFA1CCB590000FA0DC4 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		0140EEFC1CCB590000FA0DC4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0140EF1B1CCFD61E00FA0DC4 /* BWHomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWHomeController.swift; sourceTree = "<group>"; };
+		0140EF1C1CCFD61E00FA0DC4 /* BWSplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWSplashController.swift; sourceTree = "<group>"; };
+		0140EF1F1CCFD63300FA0DC4 /* BWAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWAppDelegate.swift; sourceTree = "<group>"; };
+		0140EF201CCFD63300FA0DC4 /* BWDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +146,8 @@
 		0140EEEE1CCB590000FA0DC4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0140EEEF1CCB590000FA0DC4 /* ViewController.swift */,
+				0140EF1B1CCFD61E00FA0DC4 /* BWHomeController.swift */,
+				0140EF1C1CCFD61E00FA0DC4 /* BWSplashController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -153,8 +155,8 @@
 		0140EEF01CCB590000FA0DC4 /* OtherUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				0140EEF11CCB590000FA0DC4 /* AppDelegate.swift */,
-				0140EEF21CCB590000FA0DC4 /* DataManager.swift */,
+				0140EF1F1CCFD63300FA0DC4 /* BWAppDelegate.swift */,
+				0140EF201CCFD63300FA0DC4 /* BWDataManager.swift */,
 			);
 			path = OtherUtilities;
 			sourceTree = "<group>";
@@ -312,7 +314,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0140EF011CCB590000FA0DC4 /* Info.plist in Resources */,
 				0140EF021CCB590000FA0DC4 /* LaunchScreen.xib in Resources */,
 				0140EF001CCB590000FA0DC4 /* Images.xcassets in Resources */,
 				0140EF031CCB590000FA0DC4 /* Main.storyboard in Resources */,
@@ -340,9 +341,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0140EEFE1CCB590000FA0DC4 /* AppDelegate.swift in Sources */,
-				0140EEFF1CCB590000FA0DC4 /* DataManager.swift in Sources */,
-				0140EEFD1CCB590000FA0DC4 /* ViewController.swift in Sources */,
+				0140EF1E1CCFD61E00FA0DC4 /* BWSplashController.swift in Sources */,
+				0140EF221CCFD63300FA0DC4 /* BWDataManager.swift in Sources */,
+				0140EF1D1CCFD61E00FA0DC4 /* BWHomeController.swift in Sources */,
+				0140EF211CCFD63300FA0DC4 /* BWAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +552,7 @@
 				0140EEE51CCB58AB00FA0DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0140EEE61CCB58AB00FA0DC4 /* Build configuration list for PBXNativeTarget "BudwisherTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +561,7 @@
 				0140EEE81CCB58AB00FA0DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0140EEE91CCB58AB00FA0DC4 /* Build configuration list for PBXNativeTarget "BudwisherUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +570,7 @@
 				0140EEEB1CCB58AB00FA0DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

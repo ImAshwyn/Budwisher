@@ -1,4 +1,4 @@
-//  AppDelegate.swift
+//  BWAppDelegate.swift
 //  Budwisher
 //
 //  Created by Ashwin Kini on 23/04/16.
